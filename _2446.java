@@ -16,9 +16,9 @@ public class _2446{
             for(int k=0; k<(2*N)-1-(2*i); k++){
                 System.out.print("*");
             }
-            for(int l=0; l<i; l++){   // 줄수에 따라 공백 찍기 
-                System.out.print(" ");
-            }
+//            for(int l=0; l<i; l++){   // 줄수에 따라 공백 찍기 
+//                System.out.print(" ");
+//            }
             System.out.println();
         }
         for(int m=N; m>1; m--){    // N-1만큼의 줄이 남아있음
@@ -28,9 +28,9 @@ public class _2446{
             for(int p=(2*N)+1; p>2*m-2; p--){
                 System.out.print("*");
             }
-            for(int q=m-1; q>1; q--){   // 줄수에 따라 공백 찍기 
-                System.out.print(" ");
-            }
+//            for(int q=m-1; q>1; q--){   // 줄수에 따라 공백 찍기 
+//                System.out.print(" ");
+//            }
             System.out.println();
         }
     }
